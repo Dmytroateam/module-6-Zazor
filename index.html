@@ -15,9 +15,9 @@
                 </section>
                 <div class="reg-form">
                     <img src="img/auth.png" alt="" width="15" height="19">
-                    <form id="reg" class="inf" action=# method=get>
-                        <input class="fin" type=text placeholder="логин">
-                        <input class="fin" type=text placeholder="пароль">
+                    <form id="reg" class="inf" action=# method=post>
+                        <input class="fin" type=text placeholder="логин" name="login">
+                        <input class="fin" type=text placeholder="пароль" name="parol">
                         <input type="submit" class="sumit"  value="вход" form="reg">
                    </form> 
                    <span>|</span> <a class="vr" href="#">регистрация</a> <a class="zp" href="#">забыли пароль?</a>
@@ -42,8 +42,8 @@
                         <img src="img/corz.png" alt="" height="17" width="21" ></a>
                         <span class="name">товаров:</span>
                         <span  class="price" style="color:#0d5a8f;" id="cart_quantity">0</span>
-                        <span class="name">на сумму:</span>
-                        <span class="price" style="color:#0d5a8f;" id="cart_total">0,00 грн</span>
+                        <span class="name2">на сумму:</span>
+                        <span class="price2" style="color:#0d5a8f;" id="cart_total">0,00 грн</span>
                     </li>
                 </ul>
             </nav>
@@ -51,7 +51,7 @@
             </div>
             <aside>
                 <div class="zag">
-                    <img src="img/circle.png" alt="">
+                    <img src="img/list.png" alt="" width="20">
                     <p>КАТАЛОГ ПРОДУКЦИИ</p>
                 </div>
                 <div class="punkt">
@@ -64,7 +64,7 @@
                     <li><a href='#'>Наименование 3</a></li>
                     <li class="four"><a href='#'>Наименование 4</a></li>
                 </ul>
-                <div class="punkt">
+                <div class="punt1">
                     <img src="img/circle.png" alt="">
                     <p>ДИСКИ</p>
                 </div>
@@ -74,9 +74,9 @@
                     <li><a href='#'>Наименование 3</a></li>
                     <li class="fou"><a href='#'>Наименование 4</a></li>
                 </ul>
-                <div class="punkt">
+                <div class="punkt2">
                     <img src="img/circle.png" alt="">
-                    <p>БОЛТЫ</p>
+                    <p class="bolt">БОЛТЫ</p>
                 </div>
                 <ul class="lmenu">
                     <li><a href='#'>Наименование 1</a></li>
@@ -96,20 +96,20 @@
                         <figcaption>90.00 грн.</figcaption>
                     </figure>
                     <figure>
-                        <p class="company">Nokian</p>
-                        <p class="model">Hakkapeliitta R</p>
+                        <p class="company1">Nokian</p>
+                        <p class="model1">Hakkapeliitta R</p>
                         <div class="image">
                             <a  href="#"><img src="img/Nokian.png" alt="" height="123" /></a>
                         </div>
-                        <figcaption>115.00 грн.</figcaption>
+                        <figcaption class="uno">115.00 грн.</figcaption>
                     </figure>
                     <figure>
-                        <p class="company">Hankook</p>
-                        <p class="model">K 708 155/65 R14</p>
+                        <p class="company2">Hankook</p>
+                        <p class="model2">K 708 155/65 R14</p>
                         <div class="image">
                             <a  href="#"><img src="img/Hankook.png" alt="" height="123" /></a>
                         </div>
-                        <figcaption>393.00 грн.</figcaption>
+                        <figcaption class="dos">393.00 грн.</figcaption>
                     </figure>
                 </div>
                 <div class="sline">
@@ -122,20 +122,20 @@
                         <figcaption>90.00 грн.</figcaption>
                     </figure>
                     <figure>
-                        <p class="company">Nokian</p>
-                        <p class="model">Hakkapeliitta R</p>
+                        <p class="company1">Nokian</p>
+                        <p class="model1">Hakkapeliitta R</p>
                         <div class="image">
                             <a  href="#"><img src="img/Nokian.png" alt="" height="123" /></a>
                         </div>
-                        <figcaption>115.00 грн.</figcaption>
+                        <figcaption class="uno">115.00 грн.</figcaption>
                     </figure>
                     <figure>
-                        <p class="company">Hankook</p>
-                        <p class="model">K 708 155/65 R14</p>
+                        <p class="company2">Hankook</p>
+                        <p class="model2">K 708 155/65 R14</p>
                         <div class="image">
                             <a  href="#"><img src="img/Hankook.png" alt="" height="123" /></a>
                         </div>
-                        <figcaption>393.00 грн.</figcaption>
+                        <figcaption class="dos">393.00 грн.</figcaption>
                     </figure>
                 </div>
                 <div class="tline">
@@ -148,26 +148,26 @@
                         <figcaption>90.00 грн.</figcaption>
                     </figure>
                     <figure>
-                        <p class="company">Nokian</p>
-                        <p class="model">Hakkapeliitta R</p>
+                        <p class="company1">Nokian</p>
+                        <p class="model1">Hakkapeliitta R</p>
                         <div class="image">
                             <a  href="#"><img src="img/Nokian.png" alt="" height="123" /></a>
                         </div>
-                        <figcaption>115.00 грн.</figcaption>
+                        <figcaption class="uno">115.00 грн.</figcaption>
                     </figure>
                     <figure>
-                        <p class="company">Hankook</p>
-                        <p class="model">K 708 155/65 R14</p>
+                        <p class="company2">Hankook</p>
+                        <p class="model2">K 708 155 / 65 R14</p>
                         <div class="image">
                             <a  href="#"><img src="img/Hankook.png" alt="" height="123" /></a>
                         </div>
-                        <figcaption>393.00 грн.</figcaption>
+                        <figcaption class="dos">393.00 грн.</figcaption>
                     </figure>
                 </div>
             </main>
             <div class="rmenu">
                 <div class="zag1">
-                    <img src="img/circle.png" alt="">
+                    <img src="img/list.png" alt="">
                     <p>БРЕНДЫ:</p>
                 </div>
                 <form method='get' action='/search' id="select">
@@ -176,26 +176,26 @@
                         <p>ШИНЫ</p>
                     </div>
                     <p class="checkboxmenuitem">
-                        <input type="checkbox" name="tires1" id="t1"/><span>Бренд 1</span>
+                        <input type="checkbox" name="tires1" id="t1"/><label for="t1">Бренд 1</label>
                     </p>
                     <p class="checkboxmenuitem">
-                        <input type="checkbox" name="tires2" id="t2"/><span>Бренд 2</span>
+                        <input type="checkbox" name="tires2" id="t2"/><label for="t2">Бренд 2</label>
                     </p>
                     <p class="checkboxmenuitem">
-                        <input class="th" type="checkbox" name="tires3" id="t3"/><span>Бренд 3</span>
+                        <input class="th" type="checkbox" name="tires3" id="t3"/><label for="t3">Бренд 3</label>
                     </p>
-                    <div class="punkt1">
+                    <div class="punkt11">
                         <img src="img/circle.png" alt="">
                         <p>ДИСКИ</p>
                     </div>
-                    <p class="checkboxmenuitem">
-                        <input type="checkbox" name="disc1" id="d1" /><span>Бренд 1</span>
+                    <p class="checkboxmenuitem1">
+                        <input type="checkbox" name="disc1" id="d1" /><label for="d1">Бренд 1</label>
                     </p>
-                    <p class="checkboxmenuitem">
-                        <input type="checkbox" name="disc2" id="d2"/><span>Бренд 2</span>
+                    <p class="checkboxmenuitem1">
+                        <input type="checkbox" name="disc2" id="d2"/><label for="d2">Бренд 2</label>
                     </p>
-                    <p class="checkboxmenuitem">
-                        <input type="checkbox" name="disc3" id="d3"/><span>Бренд 3</span>
+                    <p class="checkboxmenuitem1">
+                        <input type="checkbox" name="disc3" id="d3"/><label for="d3">Бренд 3</label>
                     </p>
                     <input type="submit" class="button" 
                         value="ВЫБРАТЬ" form="select">
